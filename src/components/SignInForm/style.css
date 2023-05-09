@@ -1,0 +1,48 @@
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0 48px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 16px;
+  min-height: 60%;
+}
+.form .heading {
+  text-align: center;
+  margin: 36px 0;
+}
+.form .tabs {
+  margin: 0 24px;
+}
+.form .tab {
+  width: 50%;
+}
+.form .content {
+  margin: 36px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.form .content .input {
+  width: 100%;
+}
+.forgot-password {
+  text-align: end;
+}
+
+.sub-info {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-info-right span {
+  margin-left: 16px;
+}
